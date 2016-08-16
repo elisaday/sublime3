@@ -28,5 +28,14 @@
   { "keys": ["ctrl+shift+/"], "command": "redo"},
   { "keys": ["ctrl+shift+-"], "command": "undo"},
 
-  { "keys": ["alt+;"], "command": "toggle_comment", "args": { "block": false } },    
+  { "keys": ["alt+;"], "command": "toggle_comment", "args": { "block": false } },
+
+  { "keys": ["home"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+  { "keys": ["end"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+  { "keys": ["shift+home"], "command": "move_to", "args": {"to": "bol", "extend": true} },
+  { "keys": ["shift+end"], "command": "move_to", "args": {"to": "eol", "extend": true} },
+  { "keys": ["ctrl+home"], "command": "move_to", "args": {"to": "bof", "extend": false} },
+  { "keys": ["ctrl+end"], "command": "move_to", "args": {"to": "eof", "extend": false} },
+  { "keys": ["ctrl+shift+home"], "command": "move_to", "args": {"to": "bof", "extend": true} },
+  { "keys": ["ctrl+shift+end"], "command": "move_to", "args": {"to": "eof", "extend": true} },    
 ]
