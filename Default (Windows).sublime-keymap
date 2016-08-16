@@ -29,4 +29,12 @@
   { "keys": ["ctrl+shift+-"], "command": "undo"},
 
   { "keys": ["alt+;"], "command": "toggle_comment", "args": { "block": false } },    
+
+  { "keys": ["tab"], "command": "reindent",  "context": [
+    { "key": "panel_has_focus",  "operand": false },
+    { "key": "auto_complete_visible", "operand": false },
+    { "key": "has_next_field", "operand": false },
+    { "key": "overlay_visible", "operand": false }]
+  },
+  { "keys": ["alt+i"], "command": "insert", "args": {"characters": "\t" } },
 ]
