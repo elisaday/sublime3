@@ -36,5 +36,7 @@
     { "key": "has_next_field", "operand": false },
     { "key": "overlay_visible", "operand": false }]
   },
-  { "keys": ["alt+i"], "command": "insert", "args": {"characters": "\t" } },    
+  { "keys": ["alt+i"], "command": "insert", "args": {"characters": "\t" } },
+
+  { "keys": ["ctrl+x", "h"], "command": "select_all" },
 ]

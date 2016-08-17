@@ -37,4 +37,6 @@
     { "key": "overlay_visible", "operand": false }]
   },
   { "keys": ["alt+i"], "command": "insert", "args": {"characters": "\t" } },
+
+  { "keys": ["ctrl+x", "h"], "command": "select_all" },
 ]
