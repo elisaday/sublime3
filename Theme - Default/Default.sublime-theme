@@ -351,10 +351,10 @@
     },
     {
         "class": "sidebar_heading",
-        "color": [130, 130, 130],
+        "color": [255, 255, 255],
         "font.bold": true,
-        "shadow_color": [250, 250, 250],
-        "shadow_offset": [0, 1]
+        "shadow_color": [50, 50, 50],
+        // "shadow_offset": [0, 1]
     },
     {
         "class": "sidebar_heading",
