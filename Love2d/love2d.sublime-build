@@ -1,5 +1,5 @@
 {
-	"shell_cmd": "love $file_path",
+	"shell_cmd": "python -u \"$packages/User/terminal.py\" --wait love \"$file_path\"",
 	"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
 	"selector": "source.lua",
 }

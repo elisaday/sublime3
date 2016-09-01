@@ -1,5 +1,5 @@
 {
-	"shell_cmd": "python -u \"$packages/Python/terminal.py\" --wait \"$file\"",
+	"shell_cmd": "python -u \"$packages/User/terminal.py\" --wait \"$file\"",
 	"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
 	"selector": "source.python",
 
