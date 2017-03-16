@@ -1,8 +1,11 @@
 {
+    "file_exclude_patterns": ["*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", "*.a", 
+    	"*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", 
+    	".DS_Store", "*.class", "*.psd", "*.db", "*.sublime-workspace", "*.orig"],
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"dpi_scale": 1.0,
 	"font_face": "Monaco",
-	"font_size": 12.5,
+	"font_size": 14.5,
 	"ignored_packages":
 	[
 		"Vintage"
